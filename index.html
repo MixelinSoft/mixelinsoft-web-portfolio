@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MixelinSoft</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container nav-container">
+          <div class="logo">
+            <img src="assets/images/Logo.webp" alt="logo" height="38px" />
+          </div>
+
+          <ul class="menu">
+            <li class="menu-item" data-scroll="home">Home</li>
+            <li class="menu-item" data-scroll="about">About</li>
+            <li class="menu-item" data-scroll="skills">Skills</li>
+            <li class="menu-item" data-scroll="project">Project</li>
+            <li class="menu-item" data-scroll="contacts">Contacts</li>
+            <li class="menu-item button button-fill" data-scroll="CV">
+              Download CV
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero-section section">
+        <div class="container hero-section-container">
+          <div class="hero">
+            <div class="hero-block hero-info">
+              <div class="hero-info-terminal">
+                <p>
+                  > Hi! I`m <span class="hero-info-terminal-name">Mixelin</span>
+                </p>
+                <p>> <span id="hero-typewriter"></span></p>
+              </div>
+              <div class="hero-info-buttons">
+                <a href="#" class="button button-fill hero-info-button"
+                  ><img
+                    src="assets/icons/download.svg"
+                    alt="download icon"
+                  />Download CV</a
+                >
+                <a href="#" class="button button-outline hero-info-button"
+                  ><img
+                    src="assets/icons/stack.svg"
+                    alt="portfolio icon"
+                  />Portfolio</a
+                >
+              </div>
+            </div>
+            <div class="hero-block hero-photo">
+              <div class="hero-photo-container">
+                <img
+                  class="hero-photo-image"
+                  src="assets/images/hero-photo.webp"
+                  alt="hero-photo"
+                />
+                <div class="hero-photo-background"></div>
+                <div class="hero-photo-decor hero-photo-decor-1"></div>
+                <div class="hero-photo-decor hero-photo-decor-2"></div>
+                <div class="hero-photo-decor hero-photo-decor-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-arrow">
+          <img src="assets/icons/scroll.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="about-section section container">
+        <h2 id="about-typewriter" class="h2 about-header">About</h2>
+        <div class="about-section-content">
+          <div class="about-section-block">
+            <img src="assets/images/hero-photo2.webp" alt="hero photo" />
+          </div>
+          <div class="about-section-block">
+            <span class="about-section-text"
+              >> Hi! My name is Mykhailo Honchar and I'm a passionate web
+              developer focused on building interactive and user-friendly
+              applications. My stack includes React, Redux, JavaScript, and I'm
+              also exploring React Native. I love working on UI effects,
+              animations, drag-and-drop functionality, and dynamic layouts. My
+              goal is to create seamless and engaging user experiences while
+              continuously improving my skills. Currently, I'm developing a
+              messaging interface and a tabbed dashboard with advanced
+              customization and smooth interactions. I'm always open to new
+              challenges and opportunities to grow as a developer!</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section"></section>
+      <section class="projects-section"></section>
+      <section class="contacts-section"></section>
+      <section class="CV-section"></section>
+    </main>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

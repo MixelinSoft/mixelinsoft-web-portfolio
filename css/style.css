@@ -38,6 +38,24 @@ nav {
   position: relative;
 }
 
+.menu-button {
+  display: none;
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  left: 4px;
+}
+
+.menu-button span {
+  background-color: var(--lightColor);
+  border-radius: 6px;
+  height: 4px;
+  margin: 4px 0;
+}
+
 .logo {
   height: 100%;
   padding: 4px 0;
@@ -47,28 +65,35 @@ nav {
   height: 100%;
 }
 
-.menu {
+.desktop-menu {
   display: flex;
   height: 100%;
   align-items: center;
-  justify-content: space-between;
 }
 
-.menu-list {
+.mobile-menu .menu-item {
+  color: var(--darkColor);
+  font-size: 28px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--darkColor);
+  margin-bottom: 6px;
+}
+
+.desktop-menu .menu-list {
   height: 100%;
   display: flex;
   align-items: center;
   margin: 0;
 }
 
-.menu-item {
+.desktop-menu .menu-item {
   margin-left: 16px;
   cursor: pointer;
   font-size: 16px;
   color: var(--lightColor);
-  border-bottom: none;
+  border: none;
 }
-.menu-item:hover {
+.desktop-menu .menu-item:hover {
   color: white;
   border-bottom: 1px solid white;
   box-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
@@ -115,4 +140,16 @@ nav {
 
 .language-selector-item:not(:last-child) {
   border-bottom: 1px solid var(--lightColor);
+}
+
+@media (max-width: 1000px) {
+  .menu-button {
+    display: flex;
+  }
+  .desktop-menu {
+    display: none;
+  }
+  .logo {
+    margin-left: 36px;
+  }
 }

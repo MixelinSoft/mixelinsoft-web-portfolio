@@ -4,18 +4,21 @@ const localization = {
     about: 'Про мене',
     projects: 'Мої проекти',
     cv: 'Завантажити резюме',
+    menu: 'Меню',
   },
   EN: {
     home: 'Home',
     about: 'About me',
     projects: 'My projects',
     cv: 'Download CV',
+    menu: 'Menu',
   },
   RU: {
     home: 'Главная',
     about: 'Обо мне',
     projects: 'Мои проекты',
     cv: 'Скачать резюме',
+    menu: 'Меню',
   },
 };
 
@@ -31,11 +34,10 @@ let language = localStorage.getItem('language') || 'ua';
 const updateContent = () => {
   const translations = localization[language];
   if (!translations) return;
-
-  Object.keys(translations).forEach((key) => {
-    const element = document.getElementById(key);
-    if (element) {
-      element.textContent = translations[key];
+  document.querySelectorAll('[data-text]').forEach((element) => {
+    const textKey = element.getAttribute('data-text');
+    if (translations[textKey]) {
+      element.textContent = translations[textKey];
     }
   });
 };

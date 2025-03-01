@@ -18,21 +18,73 @@
     <header>
       <div class="container nav-container">
         <nav>
+          <button
+            class="menu-button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#asideMenu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <div class="logo">
             <img src="assets//images/Logo.webp" alt="" />
           </div>
 
-          <div class="menu">
+          <div class="desktop-menu">
             <ul class="menu-list">
-              <li id="home" class="menu-item" data-scroll="home">Home</li>
-              <li id="about" class="menu-item" data-scroll="about">About</li>
-              <li id="projects" class="menu-item" data-scroll="projects">
+              <li data-text="home" class="menu-item" data-scroll="home">
+                Home
+              </li>
+              <li data-text="about" class="menu-item" data-scroll="about">
+                About
+              </li>
+              <li data-text="projects" class="menu-item" data-scroll="projects">
                 My Projects
               </li>
-              <li id="cv" class="menu-item" data-scroll="cv">Download CV</li>
+              <li data-text="cv" class="menu-item" data-scroll="cv">
+                Download CV
+              </li>
             </ul>
-            <div class="menu-language">
-              <button class="language-button">UA</button>
+          </div>
+          <div class="menu-language">
+            <button class="language-button">UA</button>
+          </div>
+
+          <div
+            class="offcanvas offcanvas-start mobile-menu"
+            tabindex="-1"
+            id="asideMenu"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title" data-text="menu">Menu</h3>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="menu-list">
+                <li data-text="home" class="menu-item" data-scroll="home">
+                  Home
+                </li>
+                <li data-text="about" class="menu-item" data-scroll="about">
+                  About
+                </li>
+                <li
+                  data-text="projects"
+                  class="menu-item"
+                  data-scroll="projects"
+                >
+                  My Projects
+                </li>
+                <li data-text="cv" class="menu-item" data-scroll="cv">
+                  Download CV
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
@@ -45,7 +97,8 @@
       </div>
     </header>
 
-    <script src='js/localization.js'"></script>
+    <script src="js/localization.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="js/index.js"></script>
   </body>

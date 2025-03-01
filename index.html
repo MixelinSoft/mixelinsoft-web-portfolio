@@ -97,9 +97,40 @@
       </div>
     </header>
 
-    <script src="js/localization.js"></script>
+    <main>
+      <section class="section-hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="hero-content-info-container hero-content-block">
+              <div class="hero-info-terminal">
+                <p>
+                  > <span data-text="greeting"></span>
+                  <span class="terminal-name">Mixelin</span>
+                </p>
+                <p>> <span class="typewriter-terminal"></span></p>
+              </div>
+              <div class="hero-info-buttons">
+                <button data-text="projects" class="button button-outline">
+                  My Projects
+                </button>
+                <button data-text="cv" class="button">Download CV</button>
+              </div>
+            </div>
+            <div class="hero-content-photo-container hero-content-block">
+              <div class="hero-photo">
+                <img src="assets/images/Hero.webp" alt="" />
+              </div>
+              <div data-text="presentation" class="hero-info"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="js/data-localization.js"></script>
+    <script type="module" src="js/localization.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="js/index.js"></script>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>

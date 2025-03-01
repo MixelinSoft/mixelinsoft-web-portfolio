@@ -1,27 +1,4 @@
-const localization = {
-  UA: {
-    home: 'Головна',
-    about: 'Про мене',
-    projects: 'Мої проекти',
-    cv: 'Завантажити резюме',
-    menu: 'Меню',
-  },
-  EN: {
-    home: 'Home',
-    about: 'About me',
-    projects: 'My projects',
-    cv: 'Download CV',
-    menu: 'Menu',
-  },
-  RU: {
-    home: 'Главная',
-    about: 'Обо мне',
-    projects: 'Мои проекты',
-    cv: 'Скачать резюме',
-    menu: 'Меню',
-  },
-};
-
+import localization from './data-localization.js';
 // Elements
 const languageSelectorButton = document.querySelector('.language-button');
 const languageSelector = document.querySelector('.language-selector');

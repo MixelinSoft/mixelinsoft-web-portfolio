@@ -5,7 +5,7 @@ const languageSelector = document.querySelector('.language-selector');
 const languageSelectorItems = document.querySelectorAll(
   '.language-selector-item',
 );
-let language = localStorage.getItem('language') || 'ua';
+let language = localStorage.getItem('language') || 'UA';
 
 // Function to update text content based on selected language
 const updateContent = () => {

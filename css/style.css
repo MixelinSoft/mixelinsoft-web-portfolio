@@ -74,6 +74,8 @@ nav {
 .logo {
   height: 100%;
   padding: 4px 0;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -131,7 +133,7 @@ nav {
 .language-selector {
   position: absolute;
   opacity: 0;
-  right: 0;
+  right: 8px;
   top: 48px;
   width: 64px;
   padding: 0;
@@ -283,6 +285,16 @@ nav {
 @media (max-width: 767px) {
 }
 @media (max-width: 575px) {
+  .logo {
+    padding-left: 8px;
+  }
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+  .hero-content-info-container {
+    padding: 0 8px;
+  }
   .hero-info-terminal {
     font-size: 30px;
     height: 140px;
@@ -297,11 +309,11 @@ nav {
 
   .hero-info-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .hero-info-buttons button {
-    margin-right: 0;
+    margin: 0 8px;
   }
 
   .hero-photo img {

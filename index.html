@@ -113,7 +113,9 @@
                 <button data-text="projects" class="button button-outline">
                   My Projects
                 </button>
-                <button data-text="cv" class="button">Download CV</button>
+                <button data-text="cv" class="button" data-scroll="cv">
+                  Download CV
+                </button>
               </div>
             </div>
             <div class="hero-content-photo-container hero-content-block">
@@ -230,7 +232,7 @@
         <div class="container cv-container">
           <h2 class="section-title">><span data-text="cv">CV</span></h2>
           <div class="cv-content">
-            <div class="cv-doc-button">
+            <div class="cv-doc-button" data-doc-type="pdf">
               <img src="assets/icons/PDF.svg" alt="" />
               <div class="cv-links">
                 <a href="#">EN</a>
@@ -238,7 +240,7 @@
                 <a href="#">RU</a>
               </div>
             </div>
-            <div class="cv-doc-button">
+            <div class="cv-doc-button" data-doc-type="doc">
               <img src="assets/icons/DOC.svg" alt="" />
               <div class="cv-links">
                 <a href="#">EN</a>
@@ -250,6 +252,10 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <p class="copyright">© 2025 MixelinSoft</p>
+    </footer>
 
     <script type="module" src="js/data-localization.js"></script>
     <script type="module" src="js/localization.js"></script>

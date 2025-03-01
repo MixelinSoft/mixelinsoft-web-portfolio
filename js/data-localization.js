@@ -50,6 +50,13 @@ const localization = {
     tech4d: 'React Native, Electron',
     tech5t: 'Other technologies',
     tech5d: 'Git, GitHub, Webpack, NPM',
+    soft1: 'I can work in a team',
+    soft2: 'Responsible and disciplined',
+    soft3: 'Stress-resistant',
+    soft4: 'Considerate to details',
+    soft5: 'I can find optimal solutions',
+    soft6: 'Quick learner and adaptable to new technologies',
+    soft7: 'I can read and work with technical documentation',
   },
   RU: {
     home: 'Главная',
@@ -73,6 +80,13 @@ const localization = {
     tech4d: 'React Native, Electron',
     tech5t: 'Другие технологии',
     tech5d: 'Git, GitHub, Webpack, NPM',
+    soft1: 'Умею работать в команде',
+    soft2: 'Ответственный и дисциплинованный',
+    soft3: 'Стрессоустойчивый',
+    soft4: 'Внимательный к деталям',
+    soft5: 'Умею находить оптимальные решения',
+    soft6: 'Быстро учусь и адаптируюсь к новым технологиям',
+    soft7: 'Умею читать и работать с технической документацией',
   },
 };
 

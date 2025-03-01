@@ -3,7 +3,7 @@ const selectedLanguage = localStorage.getItem('language') || 'ua';
 // Elements
 const scrollButton = document.querySelector('.scroll');
 const aboutSection = document.querySelector('.section-about');
-
+const docButtons = document.querySelectorAll('.cv-doc-button');
 const typewritterTerminal = document.querySelector('.typewriter-terminal');
 
 const terminal = new Typewriter(typewritterTerminal, {
@@ -39,5 +39,15 @@ document.querySelectorAll('[data-scroll]').forEach((item) => {
       const targetPosition = targetSection.offsetTop - 96 + 32;
       window.scrollTo({ top: targetPosition, behavior: 'smooth' });
     }
+  });
+});
+
+docButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('.cv-links').forEach((linkBlock) => {
+      linkBlock.classList.remove('active');
+    });
+    const linkBlock = button.querySelector('.cv-links');
+    linkBlock.classList.add('active');
   });
 });

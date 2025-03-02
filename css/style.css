@@ -26,6 +26,20 @@
   display: none;
 }
 
+/* Scroll To Top Button */
+
+.scrollToTop {
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  bottom: 32px;
+  right: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.scrollToTop:hover {
+  opacity: 1;
+}
 /* Global Styles */
 body {
   background-color: var(--backgroundcolor);
@@ -56,7 +70,6 @@ body {
   color: var(--orangeColor);
   font-size: 48px;
 }
-
 .section-title::after {
   content: '_';
   opacity: 1;
@@ -90,6 +103,7 @@ nav {
   background-color: transparent;
   border: none;
   position: fixed;
+  padding: 0 4px;
   left: 4px;
 }
 .menu-button span {
@@ -103,6 +117,12 @@ nav {
   padding: 4px 0;
   display: flex;
   align-items: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.1s ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.025);
 }
 .logo img {
   height: 100%;
@@ -323,7 +343,7 @@ nav {
   color: var(--darkColor);
 }
 .contacts-item-image {
-  margin-right: 4px;
+  margin-right: 8px;
 }
 .contacts-item-image img {
   width: 32px;
@@ -417,6 +437,13 @@ nav {
   }
   .desktop-menu {
     display: none;
+  }
+  .offcanvas {
+    background-color: #fef8f5;
+    color: var(--darkColor);
+  }
+  .offcanvas .menu-item {
+    color: var(--darkColor);
   }
   .logo {
     margin-left: 36px;

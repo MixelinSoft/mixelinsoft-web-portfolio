@@ -9,7 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <meta name="freelancehunt" content="b42bbb50c31be6b" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -72,20 +71,44 @@
             </div>
             <div class="offcanvas-body">
               <ul class="menu-list">
-                <li data-text="home" class="menu-item" data-scroll="home">
+                <li
+                  data-text="home"
+                  class="menu-item"
+                  data-scroll="home"
+                  data-bs-dismiss="offcanvas"
+                >
                   Home
                 </li>
-                <li data-text="about" class="menu-item" data-scroll="about">
+                <li
+                  data-text="about"
+                  class="menu-item"
+                  data-scroll="about"
+                  data-bs-dismiss="offcanvas"
+                >
                   About
                 </li>
-                <!-- <li
+                <li
                   data-text="projects"
                   class="menu-item"
                   data-scroll="projects"
+                  data-bs-dismiss="offcanvas"
                 >
                   My Projects
-                </li> -->
-                <li data-text="cv" class="menu-item" data-scroll="cv">
+                </li>
+                <li
+                  data-text="contacts"
+                  class="menu-item"
+                  data-scroll="contacts"
+                  data-bs-dismiss="offcanvas"
+                >
+                  Contancts
+                </li>
+                <li
+                  data-text="cv"
+                  class="menu-item"
+                  data-scroll="cv"
+                  data-bs-dismiss="offcanvas"
+                >
                   Download CV
                 </li>
               </ul>
@@ -232,6 +255,8 @@
         </div>
       </section>
 
+      <section class="section-projects"></section>
+
       <section class="section-contacts">
         <div class="container contacts-container">
           <h2 class="section-title">
@@ -350,6 +375,13 @@
           </div>
         </div>
       </section>
+
+      <img
+        class="scrollToTop"
+        src="assets/icons/up.svg"
+        alt="scroll to top button"
+        style="opacity: 0; visibility: hidden"
+      />
     </main>
 
     <footer class="footer">
@@ -360,6 +392,6 @@
     <script type="module" src="js/localization.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script type="module" src="js/index.js"></script>
+    <script defer type="module" src="js/index.js"></script>
   </body>
 </html>

@@ -27,6 +27,10 @@ const localization = {
     soft5: 'Вмію знаходити оптимальні рішення',
     soft6: 'Швидко навчаюсь та адаптуюсь до нових технологій',
     soft7: 'Вмію читати та працювати з технічною документацією',
+    contacts: 'Контакти',
+    addressTitle: 'Адреса',
+    address: 'Україна, Дніпро',
+    phoneTitle: 'Телефон',
   },
   EN: {
     home: 'Home',
@@ -57,6 +61,10 @@ const localization = {
     soft5: 'I can find optimal solutions',
     soft6: 'Quick learner and adaptable to new technologies',
     soft7: 'I can read and work with technical documentation',
+    contacts: 'Contacts',
+    addressTitle: 'Address',
+    address: 'Ukraine, Dnipro',
+    phoneTitle: 'Phone',
   },
   RU: {
     home: 'Главная',
@@ -87,6 +95,10 @@ const localization = {
     soft5: 'Умею находить оптимальные решения',
     soft6: 'Быстро учусь и адаптируюсь к новым технологиям',
     soft7: 'Умею читать и работать с технической документацией',
+    contacts: 'Контакты',
+    addressTitle: 'Адрес',
+    address: 'Украина, Днепр',
+    phoneTitle: 'Телефон',
   },
 };
 

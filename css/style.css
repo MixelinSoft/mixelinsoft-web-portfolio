@@ -5,40 +5,37 @@
   --orangeColor: rgba(236, 124, 48, 255);
   --lightColor: rgba(251, 229, 214, 255);
 }
+
+/* ScrollBar */
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 ::-webkit-scrollbar-track {
-  background: var(--backgroundcolor); /* Цвет фона полосы прокрутки */
-  border-radius: 10px; /* Радиус скругления фона */
+  background: var(--backgroundcolor);
+  border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--orangeColor);
   border: 1px solid var(--lightColor);
   border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: var(--darkColor);
 }
-
 ::-webkit-scrollbar-button {
   display: none;
 }
 
+/* Global Styles */
 body {
   background-color: var(--backgroundcolor);
   color: var(--darkColor);
   font-family: roboto;
   padding-top: 48px;
 }
-
 .container {
   height: 100%;
 }
-
 .button {
   font-size: 22px;
   border-radius: 8px;
@@ -46,30 +43,11 @@ body {
   background-color: var(--darkColor);
   color: var(--orangeColor);
 }
-
 .button-outline {
   background-color: var(--backgroundcolor);
   color: var(--darkColor);
   border: 2px solid var(--darkColor);
 }
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 48px;
-  background-color: var(--darkColor);
-  z-index: 1000;
-}
-
-nav {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .section-title {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -85,10 +63,25 @@ nav {
   animation: blink 1s infinite;
 }
 
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: var(--darkColor);
+  z-index: 1000;
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .nav-container {
   position: relative;
 }
-
 .menu-button {
   display: none;
   flex-direction: column;
@@ -99,31 +92,26 @@ nav {
   position: fixed;
   left: 4px;
 }
-
 .menu-button span {
   background-color: var(--lightColor);
   border-radius: 6px;
   height: 4px;
   margin: 4px 0;
 }
-
 .logo {
   height: 100%;
   padding: 4px 0;
   display: flex;
   align-items: center;
 }
-
 .logo img {
   height: 100%;
 }
-
 .desktop-menu {
   display: flex;
   height: 100%;
   align-items: center;
 }
-
 .mobile-menu .menu-item {
   color: var(--darkColor);
   font-size: 28px;
@@ -131,14 +119,12 @@ nav {
   border-bottom: 1px solid var(--darkColor);
   margin-bottom: 6px;
 }
-
 .desktop-menu .menu-list {
   height: 100%;
   display: flex;
   align-items: center;
   margin: 0;
 }
-
 .desktop-menu .menu-item {
   margin-left: 16px;
   cursor: pointer;
@@ -151,12 +137,10 @@ nav {
   border-bottom: 1px solid white;
   text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
 }
-
 .menu-language {
   position: relative;
   margin-left: 32px;
 }
-
 .language-button {
   padding: 4px 6px;
   border-radius: 8px;
@@ -165,7 +149,6 @@ nav {
   color: var(--lightColor);
   cursor: pointer;
 }
-
 .language-selector {
   display: none;
   position: absolute;
@@ -179,28 +162,25 @@ nav {
   border-radius: 0 0 8px 8px;
   transition: opacity 0.3s ease-in-out;
 }
-
 .active {
   display: block;
 }
-
 .language-selector-item {
   text-align: center;
   padding: 4px 0;
   cursor: pointer;
   color: var(--lightColor);
 }
-
 .language-selector-item:not(:last-child) {
   border-bottom: 1px solid var(--lightColor);
 }
 
+/* Hero Section */
 .section-hero {
   height: calc(100vh - 48px);
   min-height: calc(100vh - 48px);
   padding-bottom: 48px;
 }
-
 .hero-container {
   padding: 16px 0;
   display: flex;
@@ -208,25 +188,21 @@ nav {
   align-items: center;
   height: 100%;
 }
-
 .hero-content {
   display: flex;
   align-items: center;
   width: 100%;
 }
-
 .hero-content-block {
   padding-top: 48px;
   width: 50%;
   height: 100%;
 }
-
 .hero-content-info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .hero-info-terminal {
   width: calc(100% - 14px);
   height: 196px;
@@ -240,7 +216,6 @@ nav {
   cursor: crosshair;
   user-select: none;
 }
-
 .terminal-name {
   padding: 8px;
   border-radius: 4px;
@@ -248,22 +223,18 @@ nav {
   background-color: var(--orangeColor);
   color: var(--darkColor);
 }
-
 .hero-info-buttons {
   margin-top: 32px;
 }
-
 .hero-info-buttons button {
   margin-right: 16px;
 }
-
 .hero-content-photo-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .hero-photo img {
   border: 4px solid var(--orangeColor);
   border-radius: 50%;
@@ -271,13 +242,11 @@ nav {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: none;
 }
-
 .hero-info {
   margin-top: 32px;
   font-size: 18px;
   padding: 0 32px;
 }
-
 .scroll {
   position: absolute;
   bottom: 24px;
@@ -285,10 +254,10 @@ nav {
   transform: translateX(-50%);
 }
 
+/* About Section */
 .about-content {
   display: flex;
 }
-
 .about-block {
   width: 50%;
 }
@@ -306,18 +275,17 @@ nav {
 .about-block-title img {
   margin-right: 8px;
 }
-
 .about-list {
   padding: 16px 8px;
   font-size: 22px;
 }
-
 .about-list-item {
   position: relative;
-  margin-bottom: 8px;
   margin-left: 36px;
 }
-
+.about-list-item:not(:last-child) {
+  margin-bottom: 8px;
+}
 .about-list-item::before {
   content: '</>';
   position: absolute;
@@ -338,6 +306,31 @@ nav {
   content: '▶';
 }
 
+/* Contacts Section */
+.contacts-item {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.contacts-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.contacts-item a {
+  text-decoration: none;
+  color: var(--darkColor);
+}
+.contacts-item-image {
+  margin-right: 4px;
+}
+.contacts-item-image img {
+  width: 32px;
+  height: 32px;
+}
+.contacts-item-title {
+  font-weight: 700;
+}
+
+/* CV Section */
 .cv-content {
   display: flex;
   width: 100%;
@@ -350,7 +343,6 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
 .cv-doc-button img {
   width: 200px;
 }
@@ -366,7 +358,6 @@ nav {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   transition: opacity 3s ease-in-out;
 }
-
 .cv-links.active {
   opacity: 1;
   display: block;
@@ -378,11 +369,11 @@ nav {
   text-decoration: none;
   color: var(--lightColor);
 }
-
 .cv-links a:not(:last-child)::after {
   content: ' | ';
 }
 
+/* Footer */
 .footer {
   height: 48px;
   display: flex;

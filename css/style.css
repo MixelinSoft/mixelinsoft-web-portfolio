@@ -307,6 +307,9 @@ nav {
 }
 
 /* Contacts Section */
+.section-contacts {
+  padding-bottom: 32px;
+}
 .contacts-item {
   display: flex;
   align-items: center;
@@ -515,6 +518,13 @@ nav {
   .soft-skill-item::before {
     left: -18px;
     top: 0;
+  }
+  .contacts-item {
+    font-size: 16px;
+  }
+  .contacts-item-image img {
+    width: 24px;
+    height: 24px;
   }
   .cv-content {
     flex-direction: column;

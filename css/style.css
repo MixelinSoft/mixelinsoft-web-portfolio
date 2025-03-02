@@ -394,6 +394,13 @@ nav {
 }
 
 @media (max-width: 1199px) {
+  .desktop-menu .menu-item {
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--lightColor);
+    border: none;
+  }
   .hero-info-terminal {
     font-size: 42px;
     height: 178px;

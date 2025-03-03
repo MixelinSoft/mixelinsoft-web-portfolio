@@ -1,6 +1,3 @@
-import localization from './data-localization.js';
-const selectedLanguage = localStorage.getItem('language') || 'ua';
-// Elements
 const logo = document.querySelector('.logo');
 const scrollButton = document.querySelector('.scroll');
 const scrollToTopButton = document.querySelector('.scrollToTop');
@@ -13,7 +10,7 @@ const terminal = new Typewriter(typewritterTerminal, {
   cursor: '_',
 });
 
-terminal.typeString(`Front-end developer`).pauseFor(2500).start();
+terminal.typeString(`Front-end Developer`).pauseFor(2500).start();
 
 window.addEventListener('scroll', () => {
   let scrollY = window.scrollY;

@@ -71,7 +71,7 @@ body {
   font-size: 48px;
 }
 .section-title::after {
-  content: '_';
+  content: ' _';
   opacity: 1;
   animation: blink 1s infinite;
 }
@@ -356,18 +356,28 @@ nav {
 /* CV Section */
 .cv-content {
   display: flex;
+  justify-content: space-around;
   width: 100%;
   padding-bottom: 32px;
 }
 .cv-doc-button {
   position: relative;
-  width: 50%;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 .cv-doc-button img {
   width: 200px;
+}
+.cv-doc-type {
+  position: absolute;
+  bottom: 12px;
+  right: 48px;
+  font-size: 42px;
+  font-weight: 900;
+  color: var(--orangeColor);
 }
 .cv-links {
   opacity: 0;
@@ -524,7 +534,6 @@ nav {
     font-size: 26px;
     margin-top: 8px;
     margin-bottom: 8px;
-    width: calc(100% - 32px);
     padding: 2px 8px;
   }
   .about-block-title {
@@ -562,14 +571,15 @@ nav {
   }
   .cv-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .cv-doc-button {
-    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+  }
+  .cv-doc-button:not(:last-child) {
+    margin-bottom: 32px;
   }
 }
 

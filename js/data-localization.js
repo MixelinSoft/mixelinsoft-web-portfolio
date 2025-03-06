@@ -27,6 +27,12 @@ const localization = {
     soft5: 'Вмію знаходити оптимальні рішення',
     soft6: 'Швидко навчаюсь та адаптуюсь до нових технологій',
     soft7: 'Вмію читати та працювати з технічною документацією',
+    projectsHTML: 'Верстка',
+    projectTechnologies: 'Технологічний стек',
+    projectsCloverCalcD:
+      'Веб-застосунок для обчислення параметрів антен, що використовуються в системах РЕБ-глушіння. Виконує складні розрахунки, пов’язані з довжинами хвиль, резонансними частотами та коефіцієнтами укорочення, забезпечуючи максимально точні результати при проєктуванні антен.',
+    projectsCloverCalcT:
+      'React, JavaScript, Formik, React-Bootstrap, CSS Modules, Aдаптивний дизайн',
     contacts: 'Контакти',
     addressTitle: 'Адреса',
     address: 'Україна, Дніпро',
@@ -61,6 +67,12 @@ const localization = {
     soft5: 'I can find optimal solutions',
     soft6: 'Quick learner and adaptable to new technologies',
     soft7: 'I can read and work with technical documentation',
+    projectsHTML: 'HTML Coding',
+    projectTechnologies: 'Tech Stack',
+    projectsCloverCalcD:
+      'A web application for calculating antenna parameters used in electronic warfare (EW) jamming systems. It performs complex calculations related to wavelength, resonance frequencies, and shortening coefficients, ensuring highly accurate results for antenna design.',
+    projectsCloverCalcT:
+      'React, JavaScript, Formik, React-Bootstrap, CSS-Modules, Repsonsive Design',
     contacts: 'Contacts',
     addressTitle: 'Address',
     address: 'Ukraine, Dnipro',
@@ -95,6 +107,12 @@ const localization = {
     soft5: 'Умею находить оптимальные решения',
     soft6: 'Быстро учусь и адаптируюсь к новым технологиям',
     soft7: 'Умею читать и работать с технической документацией',
+    projectsHTML: 'Вёрстка',
+    projectTechnologies: 'Технологический стек',
+    projectsCloverCalcD:
+      'Веб-приложение для расчета параметров антенн, используемых в системах РЭБ-глушения. Выполняет сложные вычисления, связанные с длинами волн, резонансными частотами и коэффициентами укорочения, обеспечивая максимально точные результаты при проектировании антенн.',
+    projectsCloverCalcT:
+      'React, JavaScript, Formik, React-Bootstrap, CSS Modules, Aдаптивний дизайн',
     contacts: 'Контакты',
     addressTitle: 'Адрес',
     address: 'Украина, Днепр',

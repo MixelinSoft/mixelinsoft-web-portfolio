@@ -27,7 +27,6 @@
 }
 
 /* Scroll To Top Button */
-
 .scrollToTop {
   width: 32px;
   height: 32px;
@@ -40,6 +39,7 @@
 .scrollToTop:hover {
   opacity: 1;
 }
+
 /* Global Styles */
 body {
   background-color: var(--backgroundcolor);
@@ -326,6 +326,78 @@ nav {
   content: '▶';
 }
 
+/* Projects Section */
+.accordion-button {
+  background-color: var(--orangeColor);
+  color: var(--darkColor);
+  font-size: 22px;
+  font-weight: 700;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--lightColor);
+  border: none;
+}
+.accordion-item {
+  background-color: var(--backgroundcolor);
+}
+.accordion-icon {
+  margin-right: 8px;
+}
+.accordion-icon img {
+  width: 32px;
+  height: 32px;
+}
+.accordion-title {
+  color: var(--darkColor);
+}
+.projects-list {
+  padding-left: 0;
+}
+.projects-list-item {
+  display: flex;
+  margin-bottom: 8px;
+}
+.project-icon {
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.project-icon img {
+  width: 16px;
+  height: 16px;
+}
+.project-link {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 16px;
+}
+.project-link::after {
+  content: '-';
+  position: absolute;
+  right: -12px;
+}
+.project-link a {
+  padding: 0;
+  color: var(--darkColor);
+}
+.project-description {
+  font-size: 18px;
+}
+.project-technologies {
+  font-weight: 300;
+}
+.project-technologies-title {
+  font-weight: 600;
+}
+.project-technologies-title::after {
+  content: ':';
+  margin-right: 2px;
+}
+
 /* Contacts Section */
 .section-contacts {
   padding-bottom: 32px;
@@ -432,7 +504,7 @@ nav {
     border: none;
   }
   .hero-info-terminal {
-    font-size: 42px;
+    font-size: 40px;
     height: 178px;
   }
   .hero-info {

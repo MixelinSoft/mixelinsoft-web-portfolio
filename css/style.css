@@ -120,11 +120,6 @@ nav {
   display: flex;
   align-items: center;
   cursor: pointer;
-  transform: scale(1);
-  transition: transform 0.1s ease-in-out;
-}
-.logo:hover {
-  transform: scale(1.025);
 }
 .logo img {
   height: 100%;
@@ -152,7 +147,8 @@ nav {
   cursor: pointer;
   font-size: 22px;
   color: var(--lightColor);
-  border: none;
+  border-bottom: none;
+  transition: color 0.3s ease-in-out;
 }
 .desktop-menu .menu-item:hover {
   color: white;

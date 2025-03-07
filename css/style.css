@@ -1,9 +1,11 @@
 /* Variables */
 :root {
   --backgroundcolor: rgba(251, 229, 214, 0.25);
-  --darkColor: rgba(58, 56, 56, 255);
-  --orangeColor: rgba(236, 124, 48, 255);
-  --lightColor: rgba(251, 229, 214, 255);
+  --darkColor: rgba(58, 56, 56, 1);
+  /* /3a3838 */
+  --orangeColor: rgba(236, 124, 48, 1);
+  /* #ec7b30 */
+  --lightColor: rgba(251, 229, 214, 1);
 }
 
 /* ScrollBar */
@@ -396,7 +398,7 @@ nav {
   font-weight: 300;
 }
 .project-technologies-title {
-  font-weight: 600;
+  font-weight: 700;
 }
 .project-technologies-title::after {
   content: ':';
@@ -485,7 +487,6 @@ nav {
 
 /* Footer */
 .footer {
-  height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -493,206 +494,6 @@ nav {
   background-color: var(--darkColor);
   color: var(--lightColor);
 }
-
-@media (max-width: 1399px) {
-  .hero-photo img {
-    width: 250px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .desktop-menu .menu-item {
-    margin-left: 12px;
-    cursor: pointer;
-    font-size: 18px;
-    color: var(--lightColor);
-    border: none;
-  }
-  .hero-info-terminal {
-    font-size: 40px;
-    height: 178px;
-  }
-  .hero-info {
-    line-height: 1.2;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 991px) {
-  .menu-button {
-    display: flex;
-  }
-  .desktop-menu {
-    display: none;
-  }
-  .offcanvas {
-    background-color: #fef8f5;
-    color: var(--darkColor);
-  }
-  .offcanvas .menu-item {
-    color: var(--darkColor);
-  }
-  .logo {
-    margin-left: 36px;
-  }
-  .scroll {
-    display: none;
-  }
-  .section-hero {
-    height: 100%;
-  }
-  .hero-content {
-    flex-direction: column;
-  }
-  .hero-content-block {
-    width: 100%;
-  }
-  .hero-info-buttons {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-  .hero-photo img {
-    width: 400px;
-  }
-  .about-content {
-    flex-direction: column;
-  }
-  .about-block {
-    width: 100%;
-  }
-  .projects-list-item {
-    flex-direction: column;
-  }
-  .project-link {
-    height: 32px;
-    margin-bottom: 8px;
-  }
-  .project-icon img {
-    width: 32px;
-    height: 32px;
-  }
-}
-
-@media (max-width: 767px) {
-  .section-title {
-    font-size: 32px;
-  }
-}
-@media (max-width: 575px) {
-  .logo {
-    padding-left: 8px;
-  }
-  .logo img {
-    width: 200px;
-    height: auto;
-  }
-  .hero-container {
-    padding-top: 8px;
-  }
-  .hero-content-block {
-    padding-top: 0;
-  }
-  .hero-content-info-container {
-    padding: 0 8px;
-  }
-  .hero-info-terminal {
-    font-size: 28px;
-    height: 136px;
-    width: 100%;
-  }
-  .button {
-    font-size: 16px;
-    border-radius: 4px;
-    padding: 4px 8px;
-  }
-  .hero-info-buttons {
-    display: flex;
-    justify-content: center;
-  }
-  .hero-info-buttons button {
-    margin: 0 8px;
-  }
-  .hero-photo img {
-    width: 280px;
-  }
-  .hero-info {
-    padding: 0 16px;
-  }
-  .section-title {
-    font-size: 26px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 2px 8px;
-  }
-  .about-block-title {
-    font-size: 18px;
-  }
-  .about-block-title img {
-    margin-right: 4px;
-    margin-bottom: 2px;
-    width: 20px;
-  }
-  .about-list {
-    padding: 8px 4px;
-    font-size: 16px;
-  }
-  .about-list-item {
-    margin-bottom: 4px;
-    margin-left: 22px;
-  }
-  .about-list-item::before {
-    left: -24px;
-  }
-  .soft-skill-item {
-    margin-left: 14px;
-  }
-  .soft-skill-item::before {
-    left: -18px;
-    top: 0;
-  }
-  .accordion-button {
-    font-size: 18px;
-    align-items: center;
-  }
-  .accordion-icon {
-    padding-bottom: 2px;
-  }
-  .accordion-icon img {
-    width: 18px;
-    height: 18px;
-  }
-  .project-description {
-    font-size: 16px;
-  }
-  .contacts-item {
-    font-size: 16px;
-  }
-  .contacts-item-image img {
-    width: 24px;
-    height: 24px;
-  }
-  .cv-content {
-    flex-direction: column;
-    align-items: center;
-  }
-  .cv-doc-button {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .cv-doc-button:not(:last-child) {
-    margin-bottom: 32px;
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.copyright {
+  margin: 0;
 }

@@ -29,10 +29,15 @@ const localization = {
     soft7: 'Вмію читати та працювати з технічною документацією',
     projectsHTML: 'Верстка',
     projectTechnologies: 'Технологічний стек',
-    projectsCloverCalcD:
+    // Projects
+    projectGSToolsD:
+      'Веб-застосунок з набором утиліт для вирішення буденних задач працівників АЗС. Дозволяє автоматизувати розрахунки, вести облік залишків пального, контролювати змінні звіти та оптимізувати робочі процеси. Інтуїтивно зрозумілий інтерфейс і швидкий доступ до необхідних інструментів допомагають підвищити ефективність роботи персоналу.',
+    projectGSToolsT:
+      'React, JavaScript, React Bootstrap, CSS Modules, Moment.js, Aдаптивний дизайн',
+    projectCloverCalcD:
       'Веб-застосунок для обчислення параметрів антен, що використовуються в системах РЕБ-глушіння. Виконує складні розрахунки, пов’язані з довжинами хвиль, резонансними частотами та коефіцієнтами укорочення, забезпечуючи максимально точні результати при проєктуванні антен.',
-    projectsCloverCalcT:
-      'React, JavaScript, Formik, React-Bootstrap, CSS Modules, Aдаптивний дизайн',
+    projectCloverCalcT:
+      'React, JavaScript, Formik, React Bootstrap, CSS Modules, Aдаптивний дизайн',
     contacts: 'Контакти',
     addressTitle: 'Адреса',
     address: 'Україна, Дніпро',
@@ -69,10 +74,14 @@ const localization = {
     soft7: 'I can read and work with technical documentation',
     projectsHTML: 'HTML Coding',
     projectTechnologies: 'Tech Stack',
-    projectsCloverCalcD:
+    projectGSToolsD:
+      'A web application with a set of utilities for solving daily tasks of gas station employees. It helps automate calculations, track fuel stock levels, manage shift reports, and optimize workflows. The intuitive interface and quick access to essential tools improve work efficiency for staff.',
+    projectGSToolsT:
+      'React, JavaScript, React Bootstrap, CSS Modules, Moment.js, Adaptive Design',
+    projectCloverCalcD:
       'A web application for calculating antenna parameters used in electronic warfare (EW) jamming systems. It performs complex calculations related to wavelength, resonance frequencies, and shortening coefficients, ensuring highly accurate results for antenna design.',
-    projectsCloverCalcT:
-      'React, JavaScript, Formik, React-Bootstrap, CSS-Modules, Repsonsive Design',
+    projectCloverCalcT:
+      'React, JavaScript, Formik, React Bootstrap, CSS-Modules, Repsonsive Design',
     contacts: 'Contacts',
     addressTitle: 'Address',
     address: 'Ukraine, Dnipro',
@@ -109,10 +118,14 @@ const localization = {
     soft7: 'Умею читать и работать с технической документацией',
     projectsHTML: 'Вёрстка',
     projectTechnologies: 'Технологический стек',
-    projectsCloverCalcD:
+    projectGSToolsD:
+      'Веб-приложение с набором утилит для решения повседневных задач сотрудников АЗС. Позволяет автоматизировать расчеты, учитывать остатки топлива, контролировать сменные отчеты и оптимизировать рабочие процессы. Интуитивно понятный интерфейс и быстрый доступ к необходимым инструментам помогают повысить эффективность работы персонала.',
+    projectGSToolsT:
+      'React, JavaScript, React Bootstrap, CSS Modules, Moment.js, Адаптивный дизайн',
+    projectCloverCalcD:
       'Веб-приложение для расчета параметров антенн, используемых в системах РЭБ-глушения. Выполняет сложные вычисления, связанные с длинами волн, резонансными частотами и коэффициентами укорочения, обеспечивая максимально точные результаты при проектировании антенн.',
-    projectsCloverCalcT:
-      'React, JavaScript, Formik, React-Bootstrap, CSS Modules, Aдаптивний дизайн',
+    projectCloverCalcT:
+      'React, JavaScript, Formik, React Bootstrap, CSS Modules, Aдаптивний дизайн',
     contacts: 'Контакты',
     addressTitle: 'Адрес',
     address: 'Украина, Днепр',

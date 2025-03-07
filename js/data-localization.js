@@ -32,7 +32,8 @@ const localization = {
     // Projects
     projectMixelinsoftD:
       'Мій персональний веб-сайт-портфоліо, на якому я представляю свої проекти, технічні навички та контактну інформацію. Ви зараз тут і знаходитесь! 😃 Тут ви знайдете інформацію про мене, мої проекти та зможете завантажити моє резюме у форматах PDF і DOC.',
-    projectMixelinsoftT: 'HTML, CSS, JavaScript',
+    projectMixelinsoftT:
+      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Адаптивна верстка',
     projectGSToolsD:
       'Веб-застосунок з набором утиліт для вирішення буденних задач працівників АЗС. Дозволяє автоматизувати розрахунки, вести облік залишків пального, контролювати змінні звіти та оптимізувати робочі процеси. Інтуїтивно зрозумілий інтерфейс і швидкий доступ до необхідних інструментів допомагають підвищити ефективність роботи персоналу.',
     projectGSToolsT:
@@ -77,6 +78,10 @@ const localization = {
     soft7: 'I can read and work with technical documentation',
     projectsHTML: 'HTML Coding',
     projectTechnologies: 'Tech Stack',
+    projectMixelinsoftD:
+      'My personal portfolio website where I showcase my projects, technical skills, and contact information. And guess what? You’re already here! 😃 Here, you’ll find information about me, my projects, and you can download my resume in PDF and DOC formats.',
+    projectMixelinsoftT:
+      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Adaptive Design',
     projectGSToolsD:
       'A web application with a set of utilities for solving daily tasks of gas station employees. It helps automate calculations, track fuel stock levels, manage shift reports, and optimize workflows. The intuitive interface and quick access to essential tools improve work efficiency for staff.',
     projectGSToolsT:
@@ -121,6 +126,10 @@ const localization = {
     soft7: 'Умею читать и работать с технической документацией',
     projectsHTML: 'Вёрстка',
     projectTechnologies: 'Технологический стек',
+    projectMixelinsoftD:
+      'Мой персональный сайт-портфолио, где я демонстрирую свои проекты, технические навыки и контактную информацию. И знаете что? Вы уже здесь! 😃 Здесь вы найдете информацию обо мне, моих проектах и сможете скачать мое резюме в форматах PDF и DOC.',
+    projectMixelinsoftT:
+      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Адаптивный дизайн',
     projectGSToolsD:
       'Веб-приложение с набором утилит для решения повседневных задач сотрудников АЗС. Позволяет автоматизировать расчеты, учитывать остатки топлива, контролировать сменные отчеты и оптимизировать рабочие процессы. Интуитивно понятный интерфейс и быстрый доступ к необходимым инструментам помогают повысить эффективность работы персонала.',
     projectGSToolsT:

@@ -33,7 +33,10 @@ const localization = {
     projectMixelinsoftD:
       'Мій персональний веб-сайт-портфоліо, на якому я представляю свої проекти, технічні навички та контактну інформацію. Ви зараз тут і знаходитесь! 😃 Тут ви знайдете інформацію про мене, мої проекти та зможете завантажити моє резюме у форматах PDF і DOC.',
     projectMixelinsoftT:
-      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Адаптивна верстка',
+      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Багатомовність, Адаптивна верстка',
+    projectLaslesVpnD:
+      'Односторінковий веб-сайт (лендінг) для VPN-сервісу, який презентує ключові переваги продукту: захист конфіденційності, анонімний серфінг, шифрування трафіку та доступ до заблокованого контенту. Дизайн сайту мінімалістичний, сучасний та адаптивний для всіх пристроїв. Передбачено швидкий доступ до тарифів та відгуків користувачів',
+    projectLaslesVpnT: 'HTML, CSS, JavaScript, Swiper.js, Aдаптивний дизайн',
     projectGSToolsD:
       'Веб-застосунок з набором утиліт для вирішення буденних задач працівників АЗС. Дозволяє автоматизувати розрахунки, вести облік залишків пального, контролювати змінні звіти та оптимізувати робочі процеси. Інтуїтивно зрозумілий інтерфейс і швидкий доступ до необхідних інструментів допомагають підвищити ефективність роботи персоналу.',
     projectGSToolsT:
@@ -78,10 +81,14 @@ const localization = {
     soft7: 'I can read and work with technical documentation',
     projectsHTML: 'HTML Coding',
     projectTechnologies: 'Tech Stack',
+    // Projects
     projectMixelinsoftD:
       'My personal portfolio website where I showcase my projects, technical skills, and contact information. And guess what? You’re already here! 😃 Here, you’ll find information about me, my projects, and you can download my resume in PDF and DOC formats.',
     projectMixelinsoftT:
-      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Adaptive Design',
+      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Multilingual, Adaptive Design',
+    projectLaslesVpnD:
+      'A single-page website (landing page) for a VPN service that highlights key product advantages: privacy protection, anonymous browsing, traffic encryption, and access to restricted content. The design is modern, minimalist, and fully responsive across all devices. The page features quick access to pricing plans, and user testimonials.',
+    projectLaslesVpnT: 'HTML, CSS, JavaScript, Swiper.js, Adaptive Design',
     projectGSToolsD:
       'A web application with a set of utilities for solving daily tasks of gas station employees. It helps automate calculations, track fuel stock levels, manage shift reports, and optimize workflows. The intuitive interface and quick access to essential tools improve work efficiency for staff.',
     projectGSToolsT:
@@ -129,7 +136,10 @@ const localization = {
     projectMixelinsoftD:
       'Мой персональный сайт-портфолио, где я демонстрирую свои проекты, технические навыки и контактную информацию. И знаете что? Вы уже здесь! 😃 Здесь вы найдете информацию обо мне, моих проектах и сможете скачать мое резюме в форматах PDF и DOC.',
     projectMixelinsoftT:
-      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Адаптивный дизайн',
+      'HTML, CSS, JavaScript, Bootstrap, TypewritterJS, Мульиязычность, Адаптивный дизайн',
+    projectLaslesVpnD:
+      'Одностраничный сайт (лендинг) для VPN-сервиса, который демонстрирует ключевые преимущества продукта: защиту конфиденциальности, анонимный серфинг, шифрование трафика и доступ к заблокированному контенту. Дизайн сайта минималистичный, современный и адаптивный для всех устройств. Реализован быстрый доступ к тарифным планам и отзывам пользователей.',
+    projectLaslesVpnT: 'HTML, CSS, JavaScript, Swiper.js, Адаптивный дизайн',
     projectGSToolsD:
       'Веб-приложение с набором утилит для решения повседневных задач сотрудников АЗС. Позволяет автоматизировать расчеты, учитывать остатки топлива, контролировать сменные отчеты и оптимизировать рабочие процессы. Интуитивно понятный интерфейс и быстрый доступ к необходимым инструментам помогают повысить эффективность работы персонала.',
     projectGSToolsT:
